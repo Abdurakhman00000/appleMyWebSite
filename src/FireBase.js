@@ -4,14 +4,15 @@ import { getStorage } from "firebase/storage";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD53Ys20Cc5BBoY3TmTejNeJ5n_KYG_NrQ",
-  authDomain: "applewebsitedatabase.firebaseapp.com",
-  projectId: "applewebsitedatabase",
-  storageBucket: "applewebsitedatabase.appspot.com",
-  messagingSenderId: "271171967317",
-  appId: "1:271171967317:web:ee8e73a1819cb604e5b7dc"
+  apiKey: "AIzaSyAjWs4TVFeOzCedLfyKpTpln5SwD4_dOXE",
+  authDomain: "myapplesiteproject.firebaseapp.com",
+  projectId: "myapplesiteproject",
+  storageBucket: "myapplesiteproject.appspot.com",
+  messagingSenderId: "122643318908",
+  appId: "1:122643318908:web:007a087c64df82543ea1f9"
 };
 
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
 export const storage = getStorage();
